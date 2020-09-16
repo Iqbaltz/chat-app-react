@@ -27,7 +27,7 @@ const Join = ({ classes, history }) => {
 				<Avatar className={classes.avatar}>
 					<LockOutlined />
 				</Avatar>
-				<Typography variant="h5">Join Chat</Typography>
+				<Typography variant="h5">Join Room</Typography>
 				<form className={classes.form} onSubmit={handleSubmit}>
 					<FormControl margin="normal" required fullWidth>
 						<InputLabel htmlFor="username">Username</InputLabel>
